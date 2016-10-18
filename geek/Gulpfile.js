@@ -137,7 +137,9 @@ gulp.task('default', function(callback) {
   );
 });
 
-var watcher = gulp.watch('js/**/*.js', ['default']);
+
+
+var watcher = gulp.watch('./index.template.html', ['default']);
 watcher.on('change', function(event) {
   console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
 });
