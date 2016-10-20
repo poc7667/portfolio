@@ -715,6 +715,8 @@ a:focus, button:focus, .btn:focus,
     position: relative;
     margin-bottom: 30px;
     overflow: hidden;
+    width: 264px;
+    height: 264px;
 }
 
 .portfolio-overlay {
